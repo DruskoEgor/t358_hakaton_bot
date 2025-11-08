@@ -1,0 +1,12 @@
+{
+  "name": "my-first-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "BOT_TOKEN='f9LHodD0cOIj1pE6m4LB-ZPywzN9gUUEcbRAA4NXHpH9Us02-oDlPHwC0ITkIoo17luDQBaBHlPKPVUX_EKD' node bot.js"
+  },
+  "dependencies": {
+    "@maxhub/max-bot-api": "^1.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
