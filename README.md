@@ -6,7 +6,7 @@
 
 ### Способ 1: Локальный запуск (Linux/Ubuntu)
 
-
+```bash
 # Установите Node.js и npm
 sudo apt update
 sudo apt install nodejs npm
