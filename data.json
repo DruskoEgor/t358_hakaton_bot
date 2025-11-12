@@ -1,1 +1,40 @@
-
+{
+  "requests": [
+    {
+      "id": 1234567890000,
+      "user_id": 95326464,
+      "first_name": "Егор",
+      "problem": "Нужна помощь с покупками",
+      "phone": "+7 (123) 456-78-90",
+      "category": "elderly",
+      "district": "ЦАО",
+      "timestamp": 1234567890000,
+      "rating": 0,
+      "active": true,
+      "reserved": null
+    },
+    {
+      "id": 1234567890001,
+      "user_id": 71818092,
+      "first_name": "Анна",
+      "problem": "Помощь с выгулом собаки",
+      "phone": "+7 (987) 654-32-10",
+      "category": "animals",
+      "district": "САО",
+      "timestamp": 1234567891000,
+      "rating": 0,
+      "active": true,
+      "reserved": 95326464
+    }
+  ],
+  "acceptedUsers": [95326464, 71818092],
+  "responses": [
+    {
+      "id": 1234567891000,
+      "user_id": 95326464,
+      "request_id": 1234567890001,
+      "timestamp": 1234567891000,
+      "active": true
+    }
+  ]
+}
