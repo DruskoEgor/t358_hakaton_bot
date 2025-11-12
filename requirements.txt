@@ -1,0 +1,3 @@
+nodejs>=18.0.0
+npm>=8.0.0
+@maxhub/max-bot-api>=1.0.0
