@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  dobrobot:
+    build: .
+    container_name: dobrobot
+    environment:
+      - BOT_TOKEN=ваш_токен_бота
+    restart: unless-stopped
